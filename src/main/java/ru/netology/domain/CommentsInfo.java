@@ -8,5 +8,5 @@ public class CommentsInfo {
     private boolean canClosedComments;   // Возможность закрыть комментарии
     private boolean canCommentedPost;   // Возможность комментировать пост
     private boolean canGroupsCommentedPost; // Возможность для групп комментировать посты
-
+    // + get/set на все поля
 }

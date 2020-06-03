@@ -13,5 +13,5 @@ public class Location {
     private int countryName; // Название страны
     private int cityName; // Название города
     private String adress; // Адрес локации
-
+    // + get/set на все поля
 }

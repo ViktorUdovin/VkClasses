@@ -23,20 +23,7 @@ public class VkPost {
     private boolean favouritePost;   // Возможность добавить пост в избранное
     private String[] attachments;   // Вложения ( такие как аудио/документы/видео); Хотя я не уверен, что это работает именно так!
     private GeoLocation location;  // Геопозиция прикрепленная к посту
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // + get/set на все поля
 }
 
 

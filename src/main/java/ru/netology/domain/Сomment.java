@@ -6,4 +6,5 @@ public class Сomment {
     private int actualDateAndTime;   // Актуальная дата и время комментария
     private String text;   // Текст комментария
     private LikePostInfo like; // Лайки на комментарии
+    // + get/set на все поля
 }
