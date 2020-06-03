@@ -1,8 +1,12 @@
 package ru.netology.domain;
 
+import org.w3c.dom.Comment;
+
 public class CommentsInfo {
-    private int id; // Айди комментария
-    private String name; // Имя автора ( пользователь/сообщество) комментария
-    private int actualDateAndTime;   // Актуальная дата и время комментария
-    private String text;   // Текст поста
+    private Comment comment; // Сам комментарий
+    private boolean canOpenComments;   // Возможность открыть комментарии
+    private boolean canClosedComments;   // Возможность закрыть комментарии
+    private boolean canCommentedPost;   // Возможность комментировать пост
+    private boolean canGroupsCommentedPost; // Возможность для групп комментировать посты
+
 }

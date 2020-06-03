@@ -3,21 +3,26 @@ package ru.netology.domain;
 public class VkPost {
     private int postId;   // Номер поста;
     private String groupName;   // Имя группы или пользователя
-    private String avtorName;   // Имя автора поста
+    private String authorName;   // Имя автора поста
     private int actualDateAndTime;   //Актуальная дата и время поста
     private String avatarUrl; // Картинка аватара группы или автара пользователя
     private String text;   // Текст поста
     private String[] ImageUrl;   // Массив картинок поста
-    private LikePostInfo like;   //Счетчик лайков
+    private LikePostInfo like;   //Лайки на посте
     private String postType;   //Тип поста
-    private CommentsInfo comment;// Коментарии к посту
+    private CommentsInfo comments;// Коментарии к посту
     private int countComment;// счетчик комментариев
-    private RepostInfo repost;   // Репост пост
+    private RepostInfo share;   // Репост
     private int viewsCount;   // Счетчик просмотров поста
-    private boolean deletePost;   // Возможность удалить запись
-    private boolean editPost;   // Возможность редактировать запись
+    private int deferredPost;   // отложенная запись
+    private boolean deletePost;   // Возможность удалить пост
+    private boolean editPost;   // Возможность редактировать пост
     private boolean pinPost;   // Закрепленна запись или нет
-    private String[] attacments;   // Вложения ( такие как аудио/документы/видео); Хотя я не уверен, что это работает именно так!
+    private boolean canPinPost;   // Возможность закреплять пост
+    private boolean advertisingInPost;   // Наличие реклама в посте
+    private boolean favouritePost;   // Возможность добавить пост в избранное
+    private String[] attachments;   // Вложения ( такие как аудио/документы/видео); Хотя я не уверен, что это работает именно так!
+    private GeoLocation location;  // Геопозиция прикрепленная к посту
 
 
 
