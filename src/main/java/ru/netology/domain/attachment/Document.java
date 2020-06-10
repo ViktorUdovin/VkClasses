@@ -7,7 +7,7 @@ public class Document {
     private int size;   // Размер документа в байтах
     private String ext;   // Расширение документа
     private String url;   // адрес документа,по которому его можно загрузить
-    private String date;   // Дата добавления документа
-    private int type;   // Определение типа докумнета
+    private int date;   // Дата добавления документа
+    private String type;   // Определение типа докумнета
     // + get/set на все поля
 }

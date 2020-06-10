@@ -19,7 +19,7 @@ public class Video {
     private int addingDate;   // Дата добавления видеозаписи
     private int views;   // Количество просмотров видеозаписи
     private int comments;   // Количество комментариев к видео
-    private String player;   // URL страницы с плеером, который можно использовать для воспроизведения видеозаписи в браузере
+    private String playerUrl;   // URL страницы с плеером, который можно использовать для воспроизведения видеозаписи в браузере
     private String platform;   // Название платформы (для видеозаписей, добавленных с внешних сайтов)
     private boolean canEdit;   // Возможность редактировать видеозапись
     private boolean canAdd;   // Возможность добавлять видеозапись

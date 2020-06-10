@@ -8,7 +8,6 @@ public class VkPost {
     private int actualDateAndTime;   //Актуальная дата и время поста
     private String avatarUrl;   // Картинка аватара группы или автара пользователя
     private String text;   // Текст поста
-    private String[] ImageUrl;   // Массив картинок поста
     private LikePostInfo like;   //Лайки на посте
     private String postType;   //Тип поста
     private CommentsInfo comments;   // Коментарии к посту
@@ -24,6 +23,10 @@ public class VkPost {
     private boolean favouritePost;   // Возможность добавить пост в избранное
     private String[] attachments;   // Вложения ( такие как аудио/документы/видео); Хотя я не уверен, что это работает именно так!
     private GeoLocation location;   // Геопозиция прикрепленная к посту
+    private boolean canOpenComments;   // Возможность открыть комментарии
+    private boolean canClosedComments;   // Возможность закрыть комментарии
+    private boolean canCommentedPost;   // Возможность комментировать пост
+    private boolean canGroupsCommentedPost;   // Возможность для групп комментировать посты
     // + get/set на все поля
 
 
